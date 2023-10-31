@@ -22,14 +22,7 @@ composer require winnie/bulk-delete-operation
 To use the field this package provides, inside your custom CrudController do:
 
 ```php
-use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
-use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;
-use \Backpack\CRUD\app\Http\Controllers\Operations\UpdateOperation;
-use \Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
-use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
-use \Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
-
-// Bulk Delete Operation
+// Other backpack operations here
 use \Winnie\BulkDeleteOperation\Http\Controllers\Admin\Operations\BulkDeleteOperation;
 ```
 
