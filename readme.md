@@ -19,10 +19,11 @@ composer require winnie/bulk-delete-operation
 
 ## Usage
 
-To use the field this package provides, inside your custom CrudController do:
+Inside your custom CrudController do:
 
 ```php
-// Other backpack operations here
+// Other backpack operations here**
+
 use \Winnie\BulkDeleteOperation\Http\Controllers\Admin\Operations\BulkDeleteOperation;
 ```
 
